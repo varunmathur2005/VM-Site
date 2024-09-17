@@ -1,55 +1,26 @@
 ---
-  title: NextJs MDX Portfolio
-  summary: A portfolio website built with NextJs and MDX.
-  image: /images/projects/next-mdx-portfolio.jpg
-  author: 'Varun Mathur'
-  publishedAt: '2024-08-08'
+title: BookWize - A Book Recommender System
+summary: A Python-based book recommender system that utilizes popularity and collaborative filtering to provide personalized recommendations.
+image: /images/projects/collaborative-filtering.png
+author: 'Varun Mathur'
+publishedAt: '2024-09-17'
 ---
 
-This is a portfolio website built with NextJs and MDX. It uses the `@next/mdx`
-package to render MDX content in NextJs pages.
+## BookWize - A Personalized Book Recommender System
 
-## Features
+**BookWize** is a book recommendation system built using Python that provides personalized suggestions based on **popularity** and **collaborative filtering techniques**. It leverages the Kaggle Book Recommendation Dataset, enabling users to discover books that align with their preferences and reading habits.
 
-- **MDX Support**: Write content in MDX format.
-- **Syntax Highlighting**: Code blocks are syntax highlighted.
-- **Custom Components**: Use custom components in your MDX files.
-- **Responsive Design**: The website is responsive and works on all devices.
+### Key Features
 
-## Technologies
+- **Popularity-Based Recommender**  
+  Recommends books based on their overall popularity, using factors like the number of ratings and average rating scores. This feature ensures that users can explore trending books that are widely appreciated by the community.
 
-- **NextJs**: A React framework for building static and dynamic websites.
-- **MDX**: A file format that allows you to write JSX in your Markdown files.
-- **Tailwind CSS**: A utility-first CSS framework for building custom designs.
-- **Vercel**: A cloud platform for static sites and serverless functions.
+  ![Popularity-Based Recommender](/images/projects/popularity-recommender.png)
 
-## Getting Started
+- **Collaborative Filtering-Based Recommender**  
+  Utilizes **cosine similarity** to recommend books based on user preferences and similarity. By analyzing user interactions, this algorithm suggests books that similar users have enjoyed, making the recommendations more personalized.
 
-To get started with this project, you can clone the repository and install the
-dependencies:
+  ![Collaborative Filtering-Based Recommender](/images/projects/collaborative-filtering.png)
 
-```bash
-git clone
-cd next-mdx-portfolio
-npm install
-```
-
-Once the dependencies are installed, you can run the development server:
-
-```bash
-npm run dev
-```
-
-The development server will start at `http://localhost:3000`.
-
-## Deployment
-
-To deploy this project, you can use Vercel. You can link your GitHub repository
-to Vercel and deploy the project with a single click.
-
-## Conclusion
-
-This portfolio website is a great example of how you can use NextJs and MDX to
-build a modern website with dynamic content. By combining the power of NextJs
-and MDX, you can create interactive and engaging websites that are easy to
-maintain and update.
+- **Interactive Web Interface**  
+  A simple and user-friendly web interface built using **Flask**, allowing users to input book titles and get real-time recommendations. This enhances the usability of the recommender system, making it accessible to non-technical users.

@@ -24,9 +24,6 @@ export default function Header() {
             <Link href='/posts'>Posts</Link>
           </li>
           <li className='transition-colors hover:text-foreground'>
-            <Link href='/skills'>Skills</Link>
-          </li>
-          <li className='transition-colors hover:text-foreground'>
             <button onClick={scrollToFooter}>Contact</button>
           </li>
           <li className='transition-colors hover:text-foreground'>
