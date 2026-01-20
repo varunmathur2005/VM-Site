@@ -27,7 +27,7 @@ export default function Header() {
             <button onClick={scrollToFooter}>Contact</button>
           </li>
           <li className='transition-colors hover:text-foreground'>
-            <Link href='/resume/Varun_s_Resume%20(14).pdf' target="_blank">Resume</Link>
+            <Link href='/resume/Varun_Mathur_Resume_WW.pdf' target="_blank">Resume</Link>
           </li>
         </ul>
 
